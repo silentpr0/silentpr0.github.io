@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:SilentPr0]">
+<meta name="description" content="My opinion about Apple Devices on Infosec" />
+<meta name="keywords" content=", hacking, tools, osx" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://silentpr0.github.io/posts/2024/05/hacking-with-osx/" />
+
+
+    <title>
+        
+            Hacking with OSX :: SilentPr0 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="https://silentpr0.github.io/main.d9b54dc9d0c511d37c5fa91fbc60c4e1cd51794193a5fcfe56ed10ead5a001e7.css" integrity="sha256-2bVNydDFEdN8X6kfvGDE4c1ReUGTpfz&#43;Vu0Q6tWgAec=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://silentpr0.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://silentpr0.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://silentpr0.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://silentpr0.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://silentpr0.github.io/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://silentpr0.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Hacking with OSX">
+  <meta itemprop="description" content="My opinion about Apple Devices on Infosec">
+  <meta itemprop="datePublished" content="2024-05-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-05-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1283">
+  <meta itemprop="keywords" content="Hacking,Tools,Osx">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Hacking with OSX">
+<meta name="twitter:description" content="My opinion about Apple Devices on Infosec">
+
+
+
+    <meta property="og:url" content="https://silentpr0.github.io/posts/2024/05/hacking-with-osx/">
+  <meta property="og:site_name" content="SilentPr0">
+  <meta property="og:title" content="Hacking with OSX">
+  <meta property="og:description" content="My opinion about Apple Devices on Infosec">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-01T00:00:00+00:00">
+    <meta property="article:tag" content="Hacking">
+    <meta property="article:tag" content="Tools">
+    <meta property="article:tag" content="Osx">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-05-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://silentpr0.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <img src="https://silentpr0.github.io/images/ace.jpg" alt="" />
+            <span class="logo__text">
+                become ungovernable</span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://silentpr0.github.io/about/">About</a></li><li><a href="https://silentpr0.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        7 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://silentpr0.github.io/posts/2024/05/hacking-with-osx/">Hacking with OSX</a>
+      </h1>
+
+      
+        <div class="post-excerpt">My opinion about Apple Devices on Infosec</div>
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p>I usually steer clear of debates about tech, gear, or techniques used in professional contexts. However, having observed numerous discussions about the pros and cons of using Apple products for hacking and related tasks, I&rsquo;ve realized that even seasoned pros can hold some misconceptions.</p>
+<p>Last year, I decided to step in and “help” two colleagues (both professionals), sharing my experience with them. The result? They&rsquo;ve both switched to using MacBooks for their day-to-day work.</p>
+<h2 id="background">Background</h2>
+<p>I&rsquo;ve long been skeptical of Apple products, mainly due to the <strong>common perception that you&rsquo;re buying something overpriced and restrictive</strong>—especially for tasks beyond standard applications. Until 2019, the only Apple gadget I had owned was an iPod Touch around 2010. Besides that, I was an active advocate for Android devices and Nokia phones—<strong>the best phone I&rsquo;ve ever had was a Nokia N900 (2009) running Maemo (Linux), great for WiFi attacks and MITM operations, plus it had a physical QWERTY keyboard.</strong></p>
+<h2 id="paradigm-shift">Paradigm Shift</h2>
+<p>In 2019, I needed to bypass a MacBook&rsquo;s (Intel) security mechanisms and extract data for forensic analysis. I had tackled similar tasks before using virtualization, but this time, I needed a physical machine to boost my performance.</p>
+<p>I ended up purchasing a MacBook, and a good business deal got me a new MacBook Air M1 at a great price. A few weeks after completing the job, the MacBook sat collecting dust for over a month. I considered selling it, but thought it might be handy if I could dual-boot it with Kali or another Linux distro.</p>
+<p><strong>The bad news? At that time, the M1 platform didn&rsquo;t support any Linux distributions.</strong> Despite the frustration and my familiarity with the constraints of virtualization, I discovered <strong>that I could virtualize Kali using <a href="https://mac.getutm.app/">UTM</a></strong>. I wasn&rsquo;t familiar with UTM and, despite my skepticism, I had nothing to lose.</p>
+<p><strong>My skepticism stemmed from believing that a device with OSX and 8GB of RAM</strong> would perform as poorly as a Raspberry Pi running Kali. To my surprise, the performance was incredibly smooth.</p>
+<p>My prior experience involved using a &ldquo;gamer&rdquo; laptop—a <strong>Dell i7 with 16GB of RAM, SSD, and an NVIDIA GPU</strong>. Although it was a few years old, heavy, and somewhat outdated, it was still a powerhouse. <strong>I often struggled with virtualizing Kali on a Windows 10 host on this Dell,</strong> so dual-booting became a common necessity.</p>
+<h2 id="using-kali-on-utm">Using Kali on UTM</h2>
+<p><img src="https://silentpr0.github.io/images/image-20240501234748192.png" alt="iTools"></p>
+<p><strong>As a reference, my setup allocated 4GB of RAM to the VM, and I used XFCE4</strong> as the window manager. With this configuration, I can keep Kali running while also using OSX with Firefox and several tabs open. <strong>The gestures for switching desktops make it much easier to toggle between the two systems</strong>, using them simultaneously.</p>
+<p><strong>Holy shit, Kali ran spectacularly well on the MacBook Air</strong>. Installation was a breeze, and while I did encounter a hiccup with BurpSuite—which I&rsquo;ll explain later—the overall experience was outstanding.</p>
+<p><strong>My USB WiFi adapters worked, packet injection was successful,</strong> and I was convinced to keep this machine for studying, if nothing else. As impressive as it seemed, I wasn&rsquo;t sure it would hold up under the strain of real-world engagements.</p>
+<p>The M1&rsquo;s <strong>incredibly efficient battery</strong> (which I only appreciated after frequent use with UTM/Kali) and the device&rsquo;s <strong>lightweight and compact design</strong> persuaded me to keep it in my backpack, using it increasingly for everyday tasks on both UTM and OSX. <strong>Gradually, I stopped lugging around the Dell, which now serves more as a desktop than a laptop.</strong></p>
+<p><strong>The MacBook Air has become my go-to portable device for Kali (when I don’t need Windows).</strong></p>
+<p>In this new role, <strong>the MacBook has been deployed in actual engagements</strong> (when I’m not in the lab or office), and surprisingly, <strong>it has even successfully handled password cracking with JtR and Hashcat.</strong> For heavier processing tasks with Hashcat and JtR, I use another device accessible via VPN, but the MacBook has already proven itself capable of cracking WPA on UTM/Kali.</p>
+<h2 id="hacking-with-osx">Hacking with OSX</h2>
+<p><img src="https://silentpr0.github.io/images/image-20240502004025167.png" alt="UTM/Kali"></p>
+<p>While I had a functional and efficient Kali setup on UTM, I explored what tools I could use directly on OSX. Here’s a list of tools I tested and regularly use, which aren’t necessarily infosec-specific:</p>
+<ul>
+<li><strong>BurpSuite</strong>: Works perfectly natively, no complaints. <strong>For UTM/Kali, the Burp-browser doesn&rsquo;t work on the MacBook M1, and it&rsquo;s necessary to use Firefox/Brave with the burp-proxy;</strong></li>
+<li><strong>Ghidra</strong>: The OSX version handles all my needs. It doesn&rsquo;t create a launcher for the Launchpad, so it needs to be started from the command line (though it seems you can manually create a launcher, I haven’t bothered to learn how);</li>
+<li><strong>Nmap/Zenmap</strong>: Easily installed via HomeBrew, no issues encountered;</li>
+<li><strong>ReHex and HexFiend</strong>: Excellent hex editors. ReHex is more reverse engineering-focused, both are open-source;</li>
+<li><strong>Lulu</strong>: An excellent, straightforward firewall, open-source;</li>
+<li><strong>iTerm</strong>: The best terminal I’ve used on OSX;</li>
+<li><strong>SDR++ and GQRX</strong>: For capturing, sending, and analyzing radio frequency signals, compatible with all my SDR devices, both open-source;</li>
+<li><strong>OWASP-ZAP</strong>: Works as well on Linux and Windows;</li>
+<li><strong>Binwalk</strong>: Haven&rsquo;t used it much, but it has performed flawlessly in all my applications;</li>
+<li><strong>FeroxBuster</strong>: Functions like on Linux;</li>
+<li><strong>Metasploit</strong>: msfvenom and msfconsole work flawlessly;</li>
+<li><strong>Sqlmap</strong>: Operates like on Linux;</li>
+<li><strong>ADB / Android Platform Tools</strong>: Function normally;</li>
+<li><strong>XQuartz</strong>: One of my biggest surprises, used for <strong>X11 forwarding via SSH</strong>, allowing for remote display when I connect to Linux;</li>
+<li><strong>Logseq</strong>: I use it to access and draft shared notes and reports with other devices;</li>
+<li><strong>ModernCSV</strong>: A commercial software, especially useful since it allows me to efficiently handle CSV files with tens of millions of lines.</li>
+</ul>
+<h2 id="the-downside">The Downside</h2>
+<p>There are significant differences between <strong>command line utilities</strong> on Mac (BSD) and Linux (GNU). As a Linux user, I initially struggled with several familiar commands. This is annoying, but it&rsquo;s just a matter of adaptation. Other frustrating aspects include:</p>
+<ul>
+<li><strong>The native OSX terminal is awful</strong>, but there are both paid and free alternatives that help overcome this issue.</li>
+<li><strong>Control over window behavior is extremely limited</strong>, and  as someone used to interacting with windows without raising them  (allowing for more dynamic use when working with multiple windows), this simply isn&rsquo;t an option on OSX.</li>
+<li><strong>The dock for launching applications and navigating between windows is frustrating</strong> and still confuses me. I often get lost navigating between multiple terminal windows or when trying to completely close applications.</li>
+<li><strong>And the worst, in my opinion, is the keyboard layout</strong>, the use of <strong>option, command, and fn</strong> keys is very confusing for those used to <strong>ctrl and alt</strong> on conventional keyboards. Beyond being confusing, the key placement seems unfavorable for simple tasks (such as ctrl+c / ctrl+v).</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>For mobile use, I see numerous advantages in using the MacBook Air. <strong>I&rsquo;ve even managed over 18 hours of battery life in a single use, the device is incredibly light and compact, and the performance—even with just 8GB of RAM—has blown me away.</strong></p>
+<p>The MacBook natively handles many tasks related to hacking activities well, and using virtualized Linux via UTM makes us forget we’re working in a virtual environment. <strong>Except for the burp-browser, all the tools I needed worked perfectly, including USB WiFi adapters for packet injection.</strong> With UTM in full-screen mode, the usage is functional and seamless.</p>
+<p>I find it tough, and often <strong>embarrassing, to see some &lsquo;hacking pros&rsquo;  mocking those who consider or inquire about the feasibility of using a  MacBook for infosec activities</strong>. Although I held several negative views  on this before testing it out myself, I avoided getting into such  debates, mainly because <strong>I didn’t want to risk talking out of my ass.</strong></p>
+<p>I still hold out hope for a complete Linux port to Apple chips (I&rsquo;m not sure how the development of Asahi Linux is progressing), and I will definitely consider purchasing an M3 device as soon as it becomes necessary.</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://silentpr0.github.io/tags/hacking/">hacking</a></span>
+        <span class="tag"><a href="https://silentpr0.github.io/tags/tools/">tools</a></span>
+        <span class="tag"><a href="https://silentpr0.github.io/tags/osx/">osx</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        1283 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2024-04-30 21:00
+        
+
+         
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Hacking%20with%20OSX&amp;caption=Hacking%20with%20OSX&amp;canonicalUrl=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Hacking%20with%20OSX&amp;body=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f&amp;media=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f;description=Hacking%20with%20OSX" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f&amp;title=Hacking%20with%20OSX&amp;summary=Hacking%20with%20OSX&amp;source=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f&amp;resubmit=true&amp;title=Hacking%20with%20OSX" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f;title=Hacking%20with%20OSX" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Hacking%20with%20OSX%20https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f&amp;t=Hacking%20with%20OSX" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Hacking%20with%20OSX&amp;url=https%3a%2f%2fsilentpr0.github.io%2fposts%2f2024%2f05%2fhacking-with-osx%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://silentpr0.github.io/bundle.min.113e2b09c5ebce4c5c0ec49715c849121c943ccac1ba1f73ad8af5773f652075e3c6911df6026a8929c214be43af055c4f82dcdfddc65540a999ab3a67852652.js" integrity="sha512-ET4rCcXrzkxcDsSXFchJEhyUPMrBuh9zrYr1dz9lIHXjxpEd9gJqiSnCFL5DrwVcT4Lc393GVUCpmas6Z4UmUg=="></script>
+
+
+
+
+    </body>
+</html>

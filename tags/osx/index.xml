@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on SilentPr0</title>
+    <link>https://silentpr0.github.io/tags/osx/</link>
+    <description>Recent content in Osx on SilentPr0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://silentpr0.github.io/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking with OSX</title>
+      <link>https://silentpr0.github.io/posts/2024/05/hacking-with-osx/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://silentpr0.github.io/posts/2024/05/hacking-with-osx/</guid>
+      <description>I usually steer clear of debates about tech, gear, or techniques used in professional contexts. However, having observed numerous discussions about the pros and cons of using Apple products for hacking and related tasks, I&amp;rsquo;ve realized that even seasoned pros can hold some misconceptions.&#xA;Last year, I decided to step in and “help” two colleagues (both professionals), sharing my experience with them. The result? They&amp;rsquo;ve both switched to using MacBooks for their day-to-day work.</description>
+    </item>
+  </channel>
+</rss>
